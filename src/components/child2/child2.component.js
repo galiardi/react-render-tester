@@ -13,6 +13,7 @@ const Child2 = ({ background }) => {
       }}
     >
       <h3>Child2</h3>
+      <p>receives props</p>
       <button onClick={() => setColor(!color)}>on/off</button>
       <GrandChild2 />
     </div>
