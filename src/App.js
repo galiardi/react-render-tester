@@ -8,10 +8,7 @@ function App() {
   console.log("render App");
   const [background, setBackground] = useState(false);
   return (
-    <div
-      className="main"
-      style={{ backgroundColor: background ? "red" : null }}
-    >
+    <div className="main">
       <h1>Home</h1>
       <button
         onClick={() => {
